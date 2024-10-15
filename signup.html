@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login and Register</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="loginForm">
+    <h2>Login</h2>
+    <form id="login">
+      <label for="username">Username:</label><br>
+      <input type="text" id="loginUsername" name="username"><br><br>
+      <label for="password">Password:</label><br>
+      <input type="password" id="loginPassword" name="password"><br><br>
+      <button type="button" onclick="login()">Login</button>
+    </form>
+  </div>
+
+  <div id="registerForm">
+    <h2>Register</h2>
+    <form id="register">
+      <label for="username">Username:</label><br>
+      <input type="text" id="registerUsername" name="username"><br><br>
+      <label for="password">Password:</label><br>
+      <input type="password" id="registerPassword" name="password"><br><br>
+      <button type="button" onclick="register()">Register</button>
+    </form>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
